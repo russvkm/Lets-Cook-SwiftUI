@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52043DE12B414BDB00EAB53A /* Lets_CookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52043DE02B414BDB00EAB53A /* Lets_CookApp.swift */; };
+		52043DE32B414BDB00EAB53A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52043DE22B414BDB00EAB53A /* ContentView.swift */; };
+		52043DE52B414BDB00EAB53A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52043DE42B414BDB00EAB53A /* Item.swift */; };
+		52043DE72B414BDC00EAB53A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52043DE62B414BDC00EAB53A /* Assets.xcassets */; };
+		52043DEA2B414BDC00EAB53A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52043DE92B414BDC00EAB53A /* Preview Assets.xcassets */; };
+		52043DF42B414BDD00EAB53A /* Lets_CookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52043DF32B414BDD00EAB53A /* Lets_CookTests.swift */; };
+		52043DFE2B414BDD00EAB53A /* Lets_CookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52043DFD2B414BDD00EAB53A /* Lets_CookUITests.swift */; };
+		52043E002B414BDD00EAB53A /* Lets_CookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52043DFF2B414BDD00EAB53A /* Lets_CookUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52043DF02B414BDD00EAB53A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52043DD52B414BDB00EAB53A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52043DDC2B414BDB00EAB53A;
+			remoteInfo = "Lets-Cook";
+		};
+		52043DFA2B414BDD00EAB53A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52043DD52B414BDB00EAB53A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52043DDC2B414BDB00EAB53A;
+			remoteInfo = "Lets-Cook";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52043DDD2B414BDB00EAB53A /* Lets-Cook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lets-Cook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52043DE02B414BDB00EAB53A /* Lets_CookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lets_CookApp.swift; sourceTree = "<group>"; };
+		52043DE22B414BDB00EAB53A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52043DE42B414BDB00EAB53A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		52043DE62B414BDC00EAB53A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52043DE92B414BDC00EAB53A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52043DEF2B414BDD00EAB53A /* Lets-CookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lets-CookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52043DF32B414BDD00EAB53A /* Lets_CookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lets_CookTests.swift; sourceTree = "<group>"; };
+		52043DF92B414BDD00EAB53A /* Lets-CookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lets-CookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52043DFD2B414BDD00EAB53A /* Lets_CookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lets_CookUITests.swift; sourceTree = "<group>"; };
+		52043DFF2B414BDD00EAB53A /* Lets_CookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lets_CookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52043DDA2B414BDB00EAB53A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52043DEC2B414BDD00EAB53A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52043DF62B414BDD00EAB53A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52043DD42B414BDB00EAB53A = {
+			isa = PBXGroup;
+			children = (
+				52043DDF2B414BDB00EAB53A /* Lets-Cook */,
+				52043DF22B414BDD00EAB53A /* Lets-CookTests */,
+				52043DFC2B414BDD00EAB53A /* Lets-CookUITests */,
+				52043DDE2B414BDB00EAB53A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52043DDE2B414BDB00EAB53A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52043DDD2B414BDB00EAB53A /* Lets-Cook.app */,
+				52043DEF2B414BDD00EAB53A /* Lets-CookTests.xctest */,
+				52043DF92B414BDD00EAB53A /* Lets-CookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52043DDF2B414BDB00EAB53A /* Lets-Cook */ = {
+			isa = PBXGroup;
+			children = (
+				52043DE02B414BDB00EAB53A /* Lets_CookApp.swift */,
+				52043DE22B414BDB00EAB53A /* ContentView.swift */,
+				52043DE42B414BDB00EAB53A /* Item.swift */,
+				52043DE62B414BDC00EAB53A /* Assets.xcassets */,
+				52043DE82B414BDC00EAB53A /* Preview Content */,
+			);
+			path = "Lets-Cook";
+			sourceTree = "<group>";
+		};
+		52043DE82B414BDC00EAB53A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52043DE92B414BDC00EAB53A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52043DF22B414BDD00EAB53A /* Lets-CookTests */ = {
+			isa = PBXGroup;
+			children = (
+				52043DF32B414BDD00EAB53A /* Lets_CookTests.swift */,
+			);
+			path = "Lets-CookTests";
+			sourceTree = "<group>";
+		};
+		52043DFC2B414BDD00EAB53A /* Lets-CookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52043DFD2B414BDD00EAB53A /* Lets_CookUITests.swift */,
+				52043DFF2B414BDD00EAB53A /* Lets_CookUITestsLaunchTests.swift */,
+			);
+			path = "Lets-CookUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52043DDC2B414BDB00EAB53A /* Lets-Cook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52043E032B414BDD00EAB53A /* Build configuration list for PBXNativeTarget "Lets-Cook" */;
+			buildPhases = (
+				52043DD92B414BDB00EAB53A /* Sources */,
+				52043DDA2B414BDB00EAB53A /* Frameworks */,
+				52043DDB2B414BDB00EAB53A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lets-Cook";
+			productName = "Lets-Cook";
+			productReference = 52043DDD2B414BDB00EAB53A /* Lets-Cook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52043DEE2B414BDD00EAB53A /* Lets-CookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52043E062B414BDD00EAB53A /* Build configuration list for PBXNativeTarget "Lets-CookTests" */;
+			buildPhases = (
+				52043DEB2B414BDD00EAB53A /* Sources */,
+				52043DEC2B414BDD00EAB53A /* Frameworks */,
+				52043DED2B414BDD00EAB53A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52043DF12B414BDD00EAB53A /* PBXTargetDependency */,
+			);
+			name = "Lets-CookTests";
+			productName = "Lets-CookTests";
+			productReference = 52043DEF2B414BDD00EAB53A /* Lets-CookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52043DF82B414BDD00EAB53A /* Lets-CookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52043E092B414BDD00EAB53A /* Build configuration list for PBXNativeTarget "Lets-CookUITests" */;
+			buildPhases = (
+				52043DF52B414BDD00EAB53A /* Sources */,
+				52043DF62B414BDD00EAB53A /* Frameworks */,
+				52043DF72B414BDD00EAB53A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52043DFB2B414BDD00EAB53A /* PBXTargetDependency */,
+			);
+			name = "Lets-CookUITests";
+			productName = "Lets-CookUITests";
+			productReference = 52043DF92B414BDD00EAB53A /* Lets-CookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52043DD52B414BDB00EAB53A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					52043DDC2B414BDB00EAB53A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					52043DEE2B414BDD00EAB53A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 52043DDC2B414BDB00EAB53A;
+					};
+					52043DF82B414BDD00EAB53A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 52043DDC2B414BDB00EAB53A;
+					};
+				};
+			};
+			buildConfigurationList = 52043DD82B414BDB00EAB53A /* Build configuration list for PBXProject "Lets-Cook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52043DD42B414BDB00EAB53A;
+			productRefGroup = 52043DDE2B414BDB00EAB53A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52043DDC2B414BDB00EAB53A /* Lets-Cook */,
+				52043DEE2B414BDD00EAB53A /* Lets-CookTests */,
+				52043DF82B414BDD00EAB53A /* Lets-CookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52043DDB2B414BDB00EAB53A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52043DEA2B414BDC00EAB53A /* Preview Assets.xcassets in Resources */,
+				52043DE72B414BDC00EAB53A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52043DED2B414BDD00EAB53A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52043DF72B414BDD00EAB53A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52043DD92B414BDB00EAB53A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52043DE32B414BDB00EAB53A /* ContentView.swift in Sources */,
+				52043DE52B414BDB00EAB53A /* Item.swift in Sources */,
+				52043DE12B414BDB00EAB53A /* Lets_CookApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52043DEB2B414BDD00EAB53A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52043DF42B414BDD00EAB53A /* Lets_CookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52043DF52B414BDD00EAB53A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52043E002B414BDD00EAB53A /* Lets_CookUITestsLaunchTests.swift in Sources */,
+				52043DFE2B414BDD00EAB53A /* Lets_CookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52043DF12B414BDD00EAB53A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52043DDC2B414BDB00EAB53A /* Lets-Cook */;
+			targetProxy = 52043DF02B414BDD00EAB53A /* PBXContainerItemProxy */;
+		};
+		52043DFB2B414BDD00EAB53A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52043DDC2B414BDB00EAB53A /* Lets-Cook */;
+			targetProxy = 52043DFA2B414BDD00EAB53A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52043E012B414BDD00EAB53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52043E022B414BDD00EAB53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52043E042B414BDD00EAB53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lets-Cook/Preview Content\"";
+				DEVELOPMENT_TEAM = BQ795THAHY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.russvkm.Lets-Cook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52043E052B414BDD00EAB53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lets-Cook/Preview Content\"";
+				DEVELOPMENT_TEAM = BQ795THAHY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.russvkm.Lets-Cook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52043E072B414BDD00EAB53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQ795THAHY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.russvkm.Lets-CookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lets-Cook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lets-Cook";
+			};
+			name = Debug;
+		};
+		52043E082B414BDD00EAB53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQ795THAHY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.russvkm.Lets-CookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lets-Cook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lets-Cook";
+			};
+			name = Release;
+		};
+		52043E0A2B414BDD00EAB53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQ795THAHY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.russvkm.Lets-CookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lets-Cook";
+			};
+			name = Debug;
+		};
+		52043E0B2B414BDD00EAB53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQ795THAHY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.russvkm.Lets-CookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lets-Cook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52043DD82B414BDB00EAB53A /* Build configuration list for PBXProject "Lets-Cook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52043E012B414BDD00EAB53A /* Debug */,
+				52043E022B414BDD00EAB53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52043E032B414BDD00EAB53A /* Build configuration list for PBXNativeTarget "Lets-Cook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52043E042B414BDD00EAB53A /* Debug */,
+				52043E052B414BDD00EAB53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52043E062B414BDD00EAB53A /* Build configuration list for PBXNativeTarget "Lets-CookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52043E072B414BDD00EAB53A /* Debug */,
+				52043E082B414BDD00EAB53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52043E092B414BDD00EAB53A /* Build configuration list for PBXNativeTarget "Lets-CookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52043E0A2B414BDD00EAB53A /* Debug */,
+				52043E0B2B414BDD00EAB53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52043DD52B414BDB00EAB53A /* Project object */;
+}
